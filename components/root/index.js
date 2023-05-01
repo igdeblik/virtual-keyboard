@@ -1,20 +1,22 @@
-import keys from '../../data/keys.js';
 import { createKeyBoard } from '../keyboard/index.js';
+import { createLanguage } from '../language/index.js';
 import { createTextArea } from '../textarea/index.js';
+
 export const createDom = () => {
     const main = document.createElement('main');
     main.className = 'main';
     const container = document.createElement('div');
     container.className = 'container';
-    const keyboard = document.createElement('div');
-    keyboard.className = 'keyboard';
+    container.id = 'container';
     const textarea = createTextArea();
+    const keyboard = createKeyBoard();
+    const info = createLanguage();
     
-    main.append(container);
     container.append(keyboard);
-   keyboard.append(textarea);
+    main.append(container, textarea);
     
-    createKeyBoard(keys, keyboard)
-    document.body.prepend(main);
     
+    document.body.prepend(main, info);
+
+    import ('../../service/keyPress.js')
   };
