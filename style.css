@@ -52,14 +52,23 @@ body {
   font-family: "San Francisco";
   font-weight: 400;
   font-size: 20px;
+  cursor: pointer;
+}
+.keyboard-btn.active {
+  box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  border-color: rgb(107, 107, 107);
+  background-color: red !important;
 }
 
 .line-one .keyboard-btn {
   height: 30px;
 }
 
+.info {
+  margin: 50px;
+}
+
 .keyboard-btn:hover {
-  box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  border-color: rgb(107, 107, 107);
+  background-color: rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=style.css.map */
