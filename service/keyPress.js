@@ -12,7 +12,7 @@ const checkIsNeedUpdate = (e) => {
 document.addEventListener('keydown', (e) => {
     if (e.code === 'Tab') e.preventDefault();
 
-    if(e.code === "CapsLock" || e.code === "ShiftLeft" || e.code === "ShiftLeft") {
+    if(e.code === "CapsLock" || e.code === "ShiftLeft" || e.code === "ShiftRight") {
             setOptions({reg: 1})
     }
 
@@ -37,7 +37,7 @@ document.addEventListener('keyup', (e) => {
 
     if (checkIsNeedUpdate(e)) updateTextarea(e);
 
-    if(e.code === "CapsLock" || e.code === "ShiftLeft" || e.code === "ShiftLeft") {
+    if(e.code === "CapsLock" || e.code === "ShiftLeft" || e.code === "ShiftRight") {
         setOptions({reg: 0})
     }
 
