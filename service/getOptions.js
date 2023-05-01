@@ -13,7 +13,7 @@ export const getOptions = () => {
 export const setOptions = (newOptions) => {
     const options = localStorage.setItem('keyboardOptions', JSON.stringify(
         {
-            lang: newOptions.lang || 'en',
+            lang: newOptions.lang || getOptions().lang,
             reg: newOptions.reg || 0
         }
     ));
