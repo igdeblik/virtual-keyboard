@@ -36,7 +36,7 @@ background-color: rgb(228, 234, 237);
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .keyboard-btn{
   margin: 5px;
@@ -45,7 +45,6 @@ background-color: rgb(228, 234, 237);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
   height: 50px;
   background-color: rgb(255, 255, 255);
   box-shadow: inset 1px 1px 10px 1px rgba(165, 165, 165, 0.3);
@@ -59,44 +58,6 @@ background-color: rgb(228, 234, 237);
   .keyboard-btn{
     height: 30px;
   }
-}
-
-div[data-key="Backspace"]{
-  width: 120px;
-}
-div[data-key="Tab"]{
-  width: 130px;
-}
-div[data-key="CapsLock"]{
-  width: 120px;
-}
-div[data-key="Shift"]{
-  width: 140px;
-}
-div[data-key="Enter"]{
-  width: 140px;
-}
-div[data-key="Command"]{
-  width: 140px;
-}
-div[data-key=" "]{
-  width:400px;
-}
-div[data-key="←"]{
-  width:50px;
-  height: 20px;
-}
-div[data-key="↑"]{
-  width:50px;
-  height: 20px;
-}
-div[data-key="→"]{
-  width:50px;
-  height: 20px;
-}
-div[data-key="↓"]{
-  width:50px;
-  height: 20px;
 }
 
 

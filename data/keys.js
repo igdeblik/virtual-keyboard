@@ -55,12 +55,14 @@ const keys = {
     Backspace: {
       en: ['Backspace', 'Backspace'],
       ru: ['Backspace', 'Backspace'],
+      size: 2,
     },
   },
   'line-three': {
     Tab: {
       en: ['Tab', 'Tab'],
       ru: ['Tab', 'Tab'],
+      size: 2,
     },
     KeyQ: {
       en: ['q', 'Q'],
@@ -115,6 +117,7 @@ const keys = {
     CapsLock: {
       en: ['CapsLock', 'CapsLock'],
       ru: ['CapsLock', 'CapsLock'],
+      size: 2.3,
     },
     KeyA: {
       en: ['a', 'A'],
@@ -167,12 +170,14 @@ const keys = {
     Enter: {
       en: ['Enter', 'Enter'],
       ru: ['Enter', 'Enter'],
+      size: 2.2,
     },
   },
   'line-five': {
     ShiftLeft: {
       en: ['Shift', 'Shift'],
       ru: ['Shift', 'Shift'],
+      size: 2.5,
     },
     IntlBacksSlash: {
       en: ['`', '~'],
@@ -218,15 +223,21 @@ const keys = {
       en: ['/', '?'],
       ru: ['/', '?'],
     },
+    ArrowUP: {
+      en: ['↑', '↑'],
+      ru: ['↑', '↑'],
+    },
     ShiftRight: {
       en: ['Shift', 'Shift'],
       ru: ['Shift', 'Shift'],
+      size:2,
     },
   },
   'line-six': {
     ControlLeft: {
       en: ['Control', 'Control'],
       ru: ['ю', 'Ю'],
+      size: 1.5,
     },
     AltLeft: {
       en: ['Alt', 'Alt'],
@@ -239,6 +250,7 @@ const keys = {
     Space: {
       en: ['', ''],
       ru: ['', ''],
+      size: 8
     },
     MetaRight: {
       en: ['Meta', 'Meta'],
@@ -251,10 +263,6 @@ const keys = {
     ArrowLeft: {
       en: ['←', '←'],
       ru: ['←', '←'],
-    },
-    ArrowUP: {
-      en: ['↑', '↑'],
-      ru: ['↑', '↑'],
     },
     ArrowDown: {
       en: ['↓', '↓'],

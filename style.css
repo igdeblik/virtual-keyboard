@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
 @font-face {
   font-family: "San Francisco";
@@ -36,7 +35,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .keyboard-btn {
@@ -46,7 +45,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
   height: 50px;
   background-color: rgb(255, 255, 255);
   box-shadow: inset 1px 1px 10px 1px rgba(165, 165, 165, 0.3);
@@ -58,54 +56,6 @@ body {
 
 .line-one .keyboard-btn {
   height: 30px;
-}
-
-div[data-key=Backspace] {
-  width: 120px;
-}
-
-div[data-key=Tab] {
-  width: 130px;
-}
-
-div[data-key=CapsLock] {
-  width: 120px;
-}
-
-div[data-key=Shift] {
-  width: 140px;
-}
-
-div[data-key=Enter] {
-  width: 140px;
-}
-
-div[data-key=Command] {
-  width: 140px;
-}
-
-div[data-key=" "] {
-  width: 400px;
-}
-
-div[data-key=←] {
-  width: 50px;
-  height: 20px;
-}
-
-div[data-key=↑] {
-  width: 50px;
-  height: 20px;
-}
-
-div[data-key=→] {
-  width: 50px;
-  height: 20px;
-}
-
-div[data-key=↓] {
-  width: 50px;
-  height: 20px;
 }
 
 .keyboard-btn:hover {
